@@ -1,0 +1,102 @@
+/* Add you CSS here */
+/* Basic reset for margins and fonts */
+body {
+  font-family: 'Segoe UI', Verdana, Arial, sans-serif; /* Smoother, professional font */
+  margin: 0;
+  padding: 0;
+  background: #fdf6e3; /* Gentle cream color */
+  color: #222;
+  font-size: 1.25em; /* Increase base font size by 25% */
+}
+
+/* Header styles */
+header {
+  background: #a8e6a3; /* Light green highlight */
+  color: #222;
+  padding: 37px 25px 25px 25px; /* 25% more padding */
+  text-align: center;
+  border-bottom: 4px solid #6fcf6f; /* Slightly darker green border */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header h1 {
+  margin: 0 0 12px 0;
+  font-size: 3.125em; /* 25% larger */
+}
+
+header p {
+  margin: 0;
+  font-size: 1.375em; /* 25% larger */
+}
+
+/* Section styles */
+section {
+  background: #fff;
+  margin: 25px auto;
+  padding: 25px;
+  max-width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  font-size: 1.25em; /* 25% larger */
+}
+
+/* Make the skills section use a single green highlight block */
+#skills {
+  background: #fff; /* Match other sections */
+}
+
+section h2 {
+  margin-top: 0;
+  color: #6fcf6f; /* Green highlight */
+  font-size: 1.75em; /* 25% larger */
+}
+
+/* Experience list */
+#experience ul {
+  list-style: disc inside;
+  padding-left: 0;
+  font-size: 1.125em; /* 25% larger */
+}
+
+#experience li {
+  background: #e6fbe6; /* Light green background, matches project boxes */
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 1.125em; /* 25% larger */
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+/* Projects section */
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project {
+  background: #e6fbe6; /* Light green background */
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 1.125em; /* 25% larger */
+}
+
+/* Skills list */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills-list li {
+  background: #e6fbe6; /* Light green background, matches project boxes */
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 1.125em; /* 25% larger */
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
